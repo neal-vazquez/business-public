@@ -38,3 +38,9 @@ If disclosure scope is uncertain, fail toward less disclosure and ask for the sm
 This principle narrows access. It does not authorize deletion, evidence destruction, concealment from lawful obligations, bypassing security controls, or withholding information that must lawfully be provided.
 
 Preserve originals, records, history, and evidence under owner control while minimizing unnecessary third-party exposure.
+
+## Governance propagation invariant
+
+Stack-wide governance changes must be applied as one coordinated change set across the canonical OneDrive/SharePoint control plane and every accessible `neal-vazquez` GitHub repository unless the owner explicitly scopes the change more narrowly.
+
+Do not leave silent divergence between control surfaces. If any required surface cannot be updated, report that exception immediately, preserve successful updates, and reconcile the remaining surface as soon as access permits.
